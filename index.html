@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMA6.presentation</title>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+
+        System.import('presentation.js');
+    </script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>ECMA6</h1>
+                <h2>Lets see what's new</h2>
+            </section>
+            <section>
+                <img class="stretch" data-src="http://geekandpoke.typepad.com/photos/uncategorized/2007/06/10/rest3.jpg" alt="geek and poke soa"/>
+            </section>
+            <section>
+                <section>
+                    <h1>Definition</h1>
+                </section>
+                <section data-markdown="/markdown/rest_definition.md"
+                         data-separator="---"
+                         data-separator-vertical="^\n\n"
+                         data-separator-notes="^Note:"
+                         data-charset="utf8"></section>
+                <section>
+                    <pre class="line-numbers">
+                        <code class="language-javascript">{
+    "username": "BigJohn23",
+    "firsname": "John",
+    "lastname": "Rubin",
+    "saldo": -70.25,
+    "credit": "https://mylilbank/api/users/bigjohn23/credit"
+}</code>
+                    </pre>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>REST vs Soap</h1>
+                </section>
+                <section>
+                    <h2>P1: SOAP</h2>
+                </section>
+                <section>
+                    <pre class="line-numbers language-xml">
+                        <code>&lt;?xml version="1.0"?&gt;
+&lt;soap:Envelope
+    xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+    soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding"&gt;
+    &lt;soap:body pb="http://www.myapp.com/api"&gt;
+        &lt;pb:GetUserDetails&gt;
+            &lt;pb:UserID&gt;12345&lt;/pb:UserID&gt;
+        &lt;/pb:GetUserDetails&gt;
+    &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</code>
+                    </pre>
+                </section>
+                <section>
+                    <pre class="line-numbers language-xml">
+                        <code>&lt;?xml version="1.0"?&gt;
+&lt;soap:Envelope
+    xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+    soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding"&gt;
+        &lt;soap:body pb="http://www.myapp.com/api"&gt;
+            &lt;pb:GetUserDetailsResponse&gt;
+                &lt;pb:UserID&gt;12345&lt;/pb:UserID&gt;
+                &lt;pb:UserName&gt;John44&lt;/pb:UserName&gt;
+                &lt;pb:FirstName&gt;John&lt;/pb:FirstName&gt;
+                &lt;pb:LastName&gt;Doh&lt;/pb:LastName&gt;
+                &lt;pb:Balance&gt;12.424,23&lt;/pb:Balance&gt;
+        &lt;/pb:GetUserDetails&gt;
+    &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</code>
+                    </pre>
+                </section>
+                <section>
+                    <h2>P2: REST</h2>
+                </section>
+                <section>
+                    <pre class="line-numbers">
+                        <code class="language-http">GET https://www.myapp.com/api/users/12345</code>
+                    </pre>
+                </section>
+                <section>
+                    <pre>
+                        <code class="language-javascript">{
+    "userName": "John",
+    "firtsName" : "John",
+    "lastName" : "Doeh",
+    "balance": 123.234,23
+}</code>
+                        </pre>
+                </section>
+                <section>
+                    <pre class="line-numbers">
+                        <code class="language-xml">&lt;?xml version="1.0"?&gt;
+&lt;UserDataResponse&gt;
+    &lt;UserDataResponse&gt;
+        &lt;pb:UserID&gt;12345&lt;/pb:UserID&gt;
+        &lt;pb:UserName&gt;John44&lt;/pb:UserName&gt;
+        &lt;pb:FirstName&gt;John&lt;/pb:FirstName&gt;
+        &lt;pb:LastName&gt;Doh&lt;/pb:LastName&gt;
+        &lt;pb:Balance&gt;12.424,23&lt;/pb:Balance&gt;
+    &lt;/UserDataResponse&gt;
+&lt;/UserDataResponse&gt;
+                        </code>
+                    </pre>
+                </section>
+                <section>
+                    <pre class="line-numbers">
+                        <code class="language-xml">&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Property&lt;/th&gt;
+        &lt;th&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+        ...
+    &lt;/tr&gt;
+&lt;/table&gt;
+                        </code>
+                    </pre>
+                </section>
+                <section>
+                    <img class="stretch" data-src="/images/mimetypes.jpg" alt="cat"/>
+                </section>
+            </section>
+            <section>
+                <section data-markdown="/markdown/compare.md"
+                         data-separator="---"
+                         data-separator-vertical="^\n\n"
+                         data-separator-notes="^Note:"
+                         data-charset="utf8"></section>
+            </section>
+            <section>
+                <section data-markdown="/markdown/verdict.md"
+                         data-separator="---"
+                         data-separator-vertical="^\n\n"
+                         data-separator-notes="^Note:"
+                         data-charset="utf8"></section>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
