@@ -18,6 +18,5 @@ function letScope(){
     console.log(x);
 }
 
-
 varScope();
 letScope();
