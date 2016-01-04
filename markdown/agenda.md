@@ -2,40 +2,36 @@
 
 ---
 
-## Syntax
+## Bindings
 
 * let
 * const
-* Arrows
-* Template strings
 
 ---
 
-## Features
+## Syntax
 
-* Default, spread, rest
+* Template strings
+* for..of
 * Default parameters
+* Spread parameters
+* Rest parameters
 * Destructuring
 
 ---
 
-## Code organization
+## Functions
 
+* Arrow functions
 * Classes
 * Modules
-
----
-
-## Concepts
-
-* Iterators
 * Generators
-* Promises
 
 ---
 
-## Types
+## Build-ins
 
+* Promises
 * Map
 * Set
 * Symbols

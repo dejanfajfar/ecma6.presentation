@@ -14,14 +14,15 @@ In the presentation the following are covered:
 
 * let
 * const
-* Arrows
 * Template strings
-* Default, spread, rest
+* for..of
 * Default parameters
+* Spread parameters
+* Rest parameters
 * Destructuring
+* Arrow functions
 * Classes
 * Modules
-* Iterators
 * Generators
 * Promises
 * Map
@@ -37,6 +38,14 @@ To execute them use nodejs console executor:
 	$ node let.js
 
 In which case _let.js_ demonstrates the advantage and usage of the __let__ keyword.
+
+## Missing support
+
+At the time of writing some features are still not supported even if enabling the experimental "stuff" in nodeJs. 
+
+So before you get frustrated please check if the feature in the sample is even compatible with your environment.
+
+[ECMA6 compatibility table](https://kangax.github.io/compat-table/es6/)
 
 # Get it running
 
