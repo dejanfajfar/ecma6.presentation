@@ -1,13 +1,5 @@
-# Build in
+"use strict";
 
----
-
-# Promises
-
----
-
-<pre>
-<code class="language-javascript">
 function generateRandomNumber(callback, onError){
     let generatedNumber = Math.random();
     if(generatedNumber > 0.5){
@@ -25,13 +17,7 @@ generateRandomNumber(
     function(message, num){
         console.error(message);
     });
-</code>
-</pre>
 
----
-
-<pre>
-<code class="language-javascript">
 function generateRandomNumberPromise(){
     return new Promise((resolve, reject) => {
         let generatedNumber = Math.random();
@@ -49,5 +35,3 @@ let promise = generateRandomNumberPromise();
 promise
     .then(num => console.log(num))
     .catch((message, num) => console.error(message));
-</code>
-</pre>
