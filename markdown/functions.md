@@ -133,3 +133,42 @@ bigKahuna.say_hello();
 bigKahuna.callingCard();
 </code>
 </pre>
+
+---
+
+## Generators
+
+---
+
+<pre>
+<code class="language-javascript">
+function* ticketNumberGenerator(){
+    let lastTicketNumber = 1;
+    while(true) {
+        yield lastTicketNumber++;
+    }
+}
+
+let ticketCounter = ticketNumberGenerator();
+
+console.log(ticketCounter.next());
+console.log(ticketCounter.next());
+console.log(ticketCounter.next());
+console.log(ticketCounter.next());
+console.log(ticketCounter.next());
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+function* channel () {
+    var name = yield 'hello, what is your name?';
+    return 'well hi there ' + name
+}
+var gen = channel();
+console.log(gen.next().value);
+console.log(gen.next('billy'));
+</code>
+</pre>
