@@ -22,7 +22,6 @@ In the presentation the following are covered:
 * Destructuring
 * Arrow functions
 * Classes
-* Modules
 * Generators
 * Promises
 * Map

@@ -24,7 +24,6 @@
 
 * Arrow functions
 * Classes
-* Modules
 * Generators
 
 ---
