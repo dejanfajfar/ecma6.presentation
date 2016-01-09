@@ -2,6 +2,13 @@
 
 ---
 
+* Promises
+* Map
+* Set
+* Symbols
+
+---
+
 ## Promises
 
 ---

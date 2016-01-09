@@ -2,6 +2,15 @@
 
 ---
 
+* Template strings
+* for..of
+* Default parameters
+* Spread parameters
+* Rest parameters
+* Deconstructing 
+
+---
+
 ## Template strings
 
 ---

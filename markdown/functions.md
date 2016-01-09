@@ -2,6 +2,12 @@
 
 ---
 
+* Arrow functions
+* Classes
+* Generators
+
+---
+
 ## Arrow functions
 
 ---

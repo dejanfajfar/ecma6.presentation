@@ -1,36 +1,15 @@
 # Agenda
 
----
-
-## Bindings
-
-* let
-* const
+* Bindings
+* Syntax
+* Functions
+* Build-in types
 
 ---
 
-## Syntax
-
-* Template strings
-* for..of
-* Default parameters
-* Spread parameters
-* Rest parameters
-* Destructuring
+# Introduction
 
 ---
 
-## Functions
+> ECMA script = JavaScript
 
-* Arrow functions
-* Classes
-* Generators
-
----
-
-## Build-ins
-
-* Promises
-* Map
-* Set
-* Symbols
