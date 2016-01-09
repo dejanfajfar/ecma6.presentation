@@ -58,3 +58,57 @@ promise
     .catch((message, num) => console.error(message));
 </code>
 </pre>
+
+---
+
+### Pyramid of doom!
+
+---
+
+<pre>
+<code class="language-javascript">
+pan.pourWater(function(){
+	range.bringToBoil(function(){
+		range.lowerHeat(function(){
+			pan.addRice(function(){
+				setTimeout(function(){
+					range.turnOff();
+					serve();
+				}, 15 * 60 * 1000);
+			});
+		});
+	});
+});
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+pan.pourWater()
+	.then(range.bringToBoil()
+	.then(range.lowerHeat())
+	.then(pan.addRice())
+	.then(setTimeout(function(){
+			range.turnOff();
+			serve();
+		}, 15 * 60 * 1000));
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+Promise.all([longOperation(), longOperation(), longOperation()])
+
+Promise.race([longOperation(), longOperation(), longOperation()])
+</code>
+</pre>
+
+---
+
+## Map
+
+---
