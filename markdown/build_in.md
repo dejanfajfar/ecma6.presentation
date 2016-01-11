@@ -159,3 +159,44 @@ map.values();
 
 ---
 
+<pre>
+<code class="language-javascript">
+let array = [];
+
+array.push(1);
+array.push(2);
+array.push(3);
+
+console.log(array);
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+let set = new Set();
+
+set.add(1);
+set.add(2);
+set.add(3);
+
+console.log(set);
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+let mySet = new Set([1,2,3,4]);
+let myArray = [...mySet];
+</code>
+</pre>
+
+---
+
+## Symbols
+
+---
+
