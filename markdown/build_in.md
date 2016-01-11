@@ -112,3 +112,50 @@ Promise.race([longOperation(), longOperation(), longOperation()])
 ## Map
 
 ---
+
+<pre>
+<code class="language-javascript">
+let map = {};
+
+map["name"] = "John";
+map["surname"] = "Doh";
+
+console.log(map["name"]);
+console.log(map["surname"]);
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+let map = new Map();
+map.set("name", "John");
+map.set("surname", "Doh");
+
+for(let value of map.values()){
+    console.log(value);
+}
+</code>
+</pre>
+
+---
+
+<pre>
+<code class="language-javascript">
+map.clear();
+map.delete("name");
+map.entries();
+map.forEach(([key, value]) => console.log(value));
+map.has("name");
+map.keys();
+map.values();
+</code>
+</pre>
+
+---
+
+## Set
+
+---
+
