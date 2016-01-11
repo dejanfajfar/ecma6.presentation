@@ -26,6 +26,9 @@
 			<th>
 				Release date
 			</th>
+			<th>
+				Trivia
+			</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -36,6 +39,9 @@
 			<td>
 				June 1997
 			</td>
+			<td>
+				Netscape 4
+			</td>
 		</tr>
 		<tr>
 			<td>
@@ -43,6 +49,9 @@
 			</td>
 			<td>
 				June 1998
+			</td>
+			<td>
+				Windows 98
 			</td>
 		</tr>
 		<tr>
@@ -52,6 +61,9 @@
 			<td>
 				December 1999
 			</td>
+			<td>
+				Napster
+			</td>
 		</tr>
 		<tr>
 			<td>
@@ -59,6 +71,8 @@
 			</td>
 			<td>
 				Abandoned
+			</td>
+			<td>
 			</td>
 		</tr>
 		<tr>
@@ -68,6 +82,9 @@
 			<td>
 				December 2009
 			</td>
+			<td>
+				Windows 7
+			</td>
 		</tr>
 		<tr>
 			<td>
@@ -76,6 +93,9 @@
 			<td>
 				June 2011
 			</td>
+			<td>
+				Firefox 4
+			</td>
 		</tr>
 		<tr>
 			<td>
@@ -83,6 +103,9 @@
 			</td>
 			<td>
 				June 2015
+			</td>
+			<td>
+				Windows 10
 			</td>
 		</tr>
 	</tbody>
@@ -136,7 +159,3 @@
 		</tr>
 	</tbody>
 </table>
-
----
-
-## How many of them fully support EC6?

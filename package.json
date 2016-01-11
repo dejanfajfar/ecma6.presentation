@@ -1,21 +1,21 @@
 {
-  "name": "rest.presentation",
+  "name": "ecma6.presentation",
   "version": "0.0.1",
-  "description": "Introductional presentation to REST",
+  "description": "New features in ECMA6",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dejanfajfar/rest.presentation.git"
+    "url": "git+https://github.com/dejanfajfar/ecma6.presentation.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dejanfajfar/rest.presentation/issues"
+    "url": "https://github.com/dejanfajfar/ecma6.presentation/issues"
   },
-  "homepage": "https://github.com/dejanfajfar/rest.presentation#readme",
+  "homepage": "https://github.com/dejanfajfar/ecma6.presentation#readme",
   "dependencies": {},
   "devDependencies": {},
   "jspm": {
