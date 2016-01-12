@@ -26,7 +26,6 @@ In the presentation the following are covered:
 * Promises
 * Map
 * Set
-* Symbols
 
 # Code samples
 

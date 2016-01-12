@@ -51,7 +51,7 @@ bigKahuna.callingCard();
 class ClassTeamLead extends ClassPerson{
     constructor(name, team){
         super(name);
-        this.team = team
+        this.team = team;
     }
 
     callingCard(){

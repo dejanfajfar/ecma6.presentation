@@ -5,7 +5,6 @@
 * Promises
 * Map
 * Set
-* Symbols
 
 ---
 
@@ -193,10 +192,3 @@ let mySet = new Set([1,2,3,4]);
 let myArray = [...mySet];
 </code>
 </pre>
-
----
-
-## Symbols
-
----
-
