@@ -1,5 +1,5 @@
 System.config({
-  baseURL: "/",
+  baseURL: "/ecma6/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
